@@ -7,7 +7,7 @@ import {
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils";
 
-import "./signup-form.styles.scss";
+import "./sign-up-form.styles.scss";
 
 import Button from "../button/button.component";
 
@@ -45,7 +45,9 @@ const SignUpForm = () => {
       resetFormFields();
     } catch (error) {
       if (error.code == "auth/email-already-in-use") {
+        console.log("User Exits: ", true);
         alert("Cannot create user, email already in use");
+        resetFormFields();
       }
       console.log("user creation encountered an error", error);
     }
