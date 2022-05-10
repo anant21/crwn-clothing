@@ -7,7 +7,7 @@ import {
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils";
 
-import "./singup-form.styles.scss";
+import "./signup-form.styles.scss";
 
 import Button from "../button/button.component";
 
