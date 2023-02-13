@@ -1,6 +1,6 @@
 # CRWN-CLOTHING React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is accessible at [Crwn Clothing](https://cosmic-moonbeam-6f9fce.netlify.app/).
 
 ## Available Scripts
 
